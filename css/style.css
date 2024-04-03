@@ -20,3 +20,9 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+#warren_buffet {
+  float: right;
+  width: 416px;
+  height: 416px;
+}
