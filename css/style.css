@@ -31,3 +31,9 @@ body, html {
   display: flex;
   align-items: center;
 }
+
+.buffet {
+  margin-right: 20px;
+  width: 416px;
+  height: 416px;
+}
