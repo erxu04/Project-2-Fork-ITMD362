@@ -26,3 +26,46 @@ body, html {
   width: 416px;
   height: 416px;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.buffet {
+  margin-right: 20px;
+  width: 416px;
+  height: 416px;
+  padding: 10px;
+}
+
+.mission-statement {
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.nav-left {
+  order: -1;
+}
+
+.nav-right {
+  display: flex;
+  font-size: 17px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
