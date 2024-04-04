@@ -26,3 +26,8 @@ body, html {
   width: 416px;
   height: 416px;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+}
