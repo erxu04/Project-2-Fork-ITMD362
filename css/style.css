@@ -49,15 +49,20 @@ body, html {
   background-color: #333;
   color: white;
   padding: 10px;
+  height: auto;
 }
 
 .nav-left {
   order: -1;
+  display: flex;
+  font-size: 30px;
+  padding: 10px;
 }
 
 .nav-right {
   display: flex;
-  font-size: 17px;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .nav-item {
@@ -68,4 +73,5 @@ a {
   color: white;
   text-decoration: none;
   display: block;
+  
 }
