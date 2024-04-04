@@ -42,3 +42,30 @@ body, html {
 .mission-statement {
   flex: 1;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.nav-left {
+  order: -1;
+}
+
+.nav-right {
+  display: flex;
+  font-size: 17px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
