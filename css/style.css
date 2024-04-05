@@ -41,7 +41,7 @@ ul.myLinks {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   display: block;
 }
 
@@ -66,3 +66,45 @@ ul.myLinks {
   color: white;
 }
 
+/* Styling the image slider */
+.slider {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  transition: opacity 1s;
+}
+
+/* Styling the mission statement*/
+.mission-statement {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+ 
+/* Styling the buttons*/
+.dummy-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
