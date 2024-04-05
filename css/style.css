@@ -67,7 +67,7 @@ ul.myLinks {
 /* Styling the image slider */
 .slider {
   max-width: 100%;
-  height: 20%;
+  height: auto;
   overflow: hidden;
 }
 
