@@ -66,3 +66,23 @@ ul.myLinks {
   color: white;
 }
 
+/* Styling the image slider */
+.slider {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+/* Styling the mission statement*/
+.mission-statement {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
