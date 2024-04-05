@@ -1,6 +1,7 @@
+/* MOBILE FIRST MEDIA QUERY */
+
 body, html {
     height: 100%;
-    padding: 0;
 }
 
 .banner-image {
@@ -21,51 +22,47 @@ body, html {
   color: white;
 }
 
-#warren_buffet {
-  float: left;
-  width: 416px;
-  height: 416px;
-}
 
-.container {
-  display: flex;
-  align-items: center;
-}
 
-.buffet {
-  margin-right: 20px;
-  width: 416px;
-  height: 416px;
-  padding: 10px;
-}
-
-.mission-statement {
-  flex: 1;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
   background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+ul.myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
   color: white;
-  padding: 10px;
-}
-
-.nav-left {
-  order: -1;
-}
-
-.nav-right {
-  display: flex;
-  font-size: 17px;
-}
-
-.nav-item {
-  margin: 0 10px;
-}
-
-a {
-  color: white;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
   display: block;
 }
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
