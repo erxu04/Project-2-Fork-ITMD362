@@ -10,7 +10,7 @@ body, html {
 h2 {
   font-size: 5em;
   font-weight: bolder;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   text-align: center;
   padding: 0.5em 0 0.5em 0;
 }
