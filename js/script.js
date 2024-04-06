@@ -36,6 +36,8 @@ function init(){
   }
 
   x.addEventListener("click", myFunction);
+
+  
 }
 
 window.addEventListener('load', init)
@@ -56,3 +58,4 @@ function showSlides() {
 }
 
 showSlides();
+

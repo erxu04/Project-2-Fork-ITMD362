@@ -1,15 +1,18 @@
 /* MOBILE FIRST MEDIA QUERY */
 
 body, html {
-    height: 100%;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
 }
 
 .banner-image {
-  background-image: url("../images/homeimage.png");
-  height: 10%;
+  /* background-image: url("../images/homeimage.jpg"); */
+  background-image: url("../images/berkshire-logo.jpeg");
+  height: 40%;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-size: 160%;
   position: relative;
 }
 
@@ -37,9 +40,9 @@ ul.myLinks {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 0.5em;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 3em;
   display: block;
 }
 
@@ -53,14 +56,15 @@ ul.myLinks {
 }
 
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
+.myLinks a:hover {
   background-color: #ddd;
   color: black;
 }
 
+
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #0430bf;
+  background-color: #2e3192;
   color: white;
 }
 
@@ -77,6 +81,21 @@ ul.myLinks {
   height: auto;
   transition: opacity 1s;
 }
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
 
 /* Styling the mission statement*/
 .mission-statement {
@@ -99,10 +118,4 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-h2 {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
 }
