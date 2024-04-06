@@ -1,6 +1,6 @@
 /* MOBILE FIRST MEDIA QUERY */
 
-body, html {
+body{
   height: 100%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
@@ -173,3 +173,71 @@ button a{
   text-align: center;
   line-height: 4em;
 }
+
+/* #form {
+  background-color: #2e3192;
+} */
+
+form {
+  background-color: #f7f7f7;
+  border-style: solid;
+  border-width: 0.5em;
+  border-color:#ddd;
+  margin: 10em 1.5em;
+  padding: 2em;
+}
+
+#form h1{
+  border-style: none;
+  padding:0;
+  margin: 0 0 0.2em 0;
+  font-size: 7em;
+  color:rgb(35, 35, 37);
+  line-height: normal;
+  text-align: center;
+  width: 100%;
+}
+
+#form p{
+  font-size:1.5em;
+  margin-bottom: 2em;
+}
+
+#form li{
+  margin: 1.5em 0 1em 0;
+}
+
+#input-name input {
+  width: 100%;
+  font-size: 2em;
+  padding: 0.2em;
+  margin: 0.2em 0 0.2em 0;
+}
+
+#input-email input {
+  width: 100%;
+  font-size: 2em;
+  padding: 0.2em;
+  margin: 0.2em 0 0.2em 0;
+}
+
+label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+#input-submit {
+  border-width: 0;
+  text-align: center;
+  padding-top: 1em;
+}
+
+#submit {
+  background-color: #2e3192;
+  color: #f7f7f7;
+  font-size: 3em;
+  padding: 0.3em;
+}
+
