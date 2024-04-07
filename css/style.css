@@ -243,4 +243,9 @@ label{
 
 /* Desktop Media Query */
 @media (min-width: 1025px) {
+  .banner-image {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+  }
 }
