@@ -242,29 +242,5 @@ label{
 }
 
 /* Desktop Media Query */
-@media screen and (min-width: 768px) {
-  .topnav {
-    height: 60px; /* Adjust the height of the navigation bar for desktop screens */
-  }
-  
-  ul.myLinks {
-    display: none; /* Display the links inside the navigation menu on desktop screens */
-  }
-  
-  .topnav a {
-    font-size: 1.5em;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    display: block;
-    text-decoration: none;
-  }
-  
-  .topnav a.icon {
-    background: rgb(35, 35, 37);
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+@media (min-width: 1025px) {
 }
-
