@@ -118,7 +118,6 @@ button{
   padding: 1em;
   border-width: 0;
   background-color: #2e3192;
-  
 }
 
 button a{
@@ -248,4 +247,15 @@ label{
     background-size: cover;
     background-position: center;
   }
+  
+  h2 {
+    font-size: 3em;
+    padding: 0.25em 0 0.25em 0;
+  }
+  
+  p {
+    line-height: 1.5em;
+  }
+  
+  
 }
