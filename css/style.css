@@ -320,6 +320,10 @@ label{
   /* Adjust main-content heeader for newsletter.html */
   .newspaper-content h2 {
     font-size: 3em;
-    padding: 1.2em 0 0.25em 0;  
+    padding: 1.2em 0 0.25em 0;
+  }
+  
+  button {
+    margin: 2em;
   }
 }
