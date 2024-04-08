@@ -292,12 +292,14 @@ label{
     height: 110vh;
   }
   
+  /* Adjust banner image for newsletter.html */
   .news-banner {
-    height: 100vh;
+    height: 70vh;
     background-size: 100%;
     background-position: center;
   }
   
+  /* Adjust newsletter text box */
   h1{
     font-size: 5em;
     border-width: 0.05em;
@@ -306,11 +308,18 @@ label{
     width: fit-content;
   }
   
+  /* Adjust sign up text for newsletter.html */
   .news-banner-text {
     padding-top: 15%;
   }
   
   .news-banner-text p {
-    font-size: 2em;
+    font-size: 1em;
+  }
+  
+  /* Adjust main-content heeader for newsletter.html */
+  .newspaper-content h2 {
+    font-size: 3em;
+    padding: 1.2em 0 0.25em 0;  
   }
 }
