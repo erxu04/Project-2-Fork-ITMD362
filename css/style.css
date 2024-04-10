@@ -94,7 +94,7 @@ ul.myLinks {
 }
 
 .news-banner  {
-  height: 50%;
+  height: 45%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("../images/homeBG.jpg");
   background-size: 200%;
 }
@@ -129,6 +129,11 @@ button a{
 }
 
 .main-content {
+  margin: 0 1.5em 1.5em 1.5em;
+  padding-bottom: 1em;
+}
+
+.dummy-news{
   margin: 0 1.5em 1.5em 1.5em;
   padding-bottom: 1em;
 }
@@ -260,7 +265,6 @@ label{
 #input-submit {
   text-align: center;
   padding-top: 1em;
-  width: 100%;
 }
 
 #submit {
@@ -273,3 +277,130 @@ label{
 }
 
 
+/* Desktop Media Query */
+@media (min-width: 1024px) {
+  /* Resize Banner image to fit screen */
+  .banner-image {
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Reduce header size */
+  h2 {
+    font-size: 3em;
+    padding: 0.25em 0 0.25em 0;
+  }
+  
+  /* Resize History statement */
+  p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+  
+  /* Adjust footer and footer content */
+  .footer {
+    padding-bottom: 1.5em;
+  }
+  
+  .footer p {
+    height: 20px;
+    font-size: 0.7em;
+    line-height: 2em;
+  }
+  
+  h3  {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+  }
+
+  .big-wrapper{
+    padding: 5em 3em 3em 2.5em;
+  }
+
+  .main-content{
+    /* margin:0 2em 2em 0; */
+    width: 40%;
+    float: left;
+  }
+  
+  /* Adjust slider images */
+  .slider {
+      width: 50%;
+      margin: 0 auto;
+    }
+    
+  .slide {
+    display: block;
+    float: left;
+    /* width: 100%; */
+    transition: opacity 1s;
+    /* height: 110vh; */
+  }
+  
+  .footer {
+    margin-top: 1em;
+  }
+
+  /* Adjust banner image for newsletter.html */
+  .news-banner {
+    height: 60%;
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  /* Adjust newsletter text box */
+  h1{
+    font-size: 5.5em;
+    border-width: 0.07em;
+    padding: 0.05em 0.2em 0.05em 0.2em;
+    margin: 0.2em auto;
+    width: fit-content;
+  }
+  
+  /* Adjust sign up text for newsletter.html */
+  .news-banner-text {
+    padding-top: 12.5%;
+  }
+  
+  .news-banner-text p {
+    font-size: 1.7em;
+  }
+
+  .dummy-news{
+    /* margin: 0 5em 0 5em; */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .newspaper-content{
+    float: none;
+    width: 100%;
+  }
+  
+  /* Adjust main-content heeader for newsletter.html */
+  .newspaper-content h2 {
+    font-size: 4em;
+    padding: 1.3em 0 0.75em 0;
+  }
+  
+  button {
+    margin: 2em;
+  }
+
+  .footer p{
+    font-size: 1em;
+  }
+
+  form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #submit{
+    width: fit-content;
+  }
+}
