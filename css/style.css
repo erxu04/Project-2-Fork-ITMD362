@@ -326,45 +326,4 @@ label{
   button {
     margin: 2em;
   }
-  
-  /* Tablet Media Query */
-  @media (min-width: 768px) {
-    /* Adjust font size and padding for h2 on tablets */
-    h2 {
-      font-size: 3.5em;
-      padding: 0.3em 0 0.3em 0;
-    }
-    
-    /* Adjust font size and padding for h3 on tablets */
-    h3 {
-      font-size: 2em;
-      padding: 0.8em 0 0.4em 0;
-    }
-    
-    /* Adjust line height for paragraphs on tablets */
-    p {
-      line-height: 1.6em;
-    }
-    
-    /* Adjust padding for footer on tablets */
-    .footer {
-      padding-bottom: 2em;
-    }
-    
-    /* Adjust font size and line height for footer paragraphs on tablets */
-    .footer p {
-      font-size: 0.8em;
-      line-height: 2em;
-    }
-    
-    /* Adjust font size for h3 on tablets */
-    h3 {
-      font-size: 1.5em;
-    }
-    
-    /* Adjust margin for buttons on tablets */
-    button {
-      margin: 2em 0;
-    }
-  }
 }
