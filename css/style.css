@@ -3,13 +3,13 @@
 body, html{
   height: 100%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 12px;
+  font-size: 22px;
   background-color: #f9f9f9;
 }
 
 h1{
   color: white;
-  font-size: 4.5em;
+  font-size: 7em;
   border-style: solid;
   border-width: 0.05em;
   padding: 0.05em 0.2em 0.05em 0.2em;
@@ -18,7 +18,7 @@ h1{
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 5em;
   font-weight: bolder;
   /* font-family: 'Roboto', sans-serif; */
   text-align: center;
@@ -33,7 +33,7 @@ h3  {
 
 p{
   font-family: 'Roboto', sans-serif;
-  line-height: 2em;
+  line-height: 1.8em;
 }
 
 /* Style the navigation menu */
@@ -58,7 +58,7 @@ ul.myLinks {
   font-family: 'Roboto', sans-serif;
   padding: 0.5em;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 3em;
   display: block;
 }
 
@@ -86,7 +86,7 @@ ul.myLinks {
 
 .banner-image {
   background-image: url("../images/berkshire-logo.jpeg");
-  height: 35%;
+  height: 40%;
   background-position: center;
   /* background-repeat: no-repeat; */
   background-size: 160%;
@@ -94,7 +94,7 @@ ul.myLinks {
 }
 
 .news-banner  {
-  height: 60%;
+  height: 50%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("../images/homeBG.jpg");
   background-size: 200%;
 }
@@ -108,38 +108,29 @@ ul.myLinks {
 
 .news-banner-text p{
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.5em;
-  margin: 1em 2em 1em 2em;
+  margin: 1em 2em 0 2em;
 }
 
-.button{
-  text-align: center;
-  margin-left:auto;
-  margin-right:auto;
+button{
+  margin: 3em 0;
   padding: 1em;
   border-width: 0;
   background-color: #2e3192;
   border-radius: 10px;
-  width: fit-content;
 }
 
-.button a{
-  font-family: 'Roboto', sans-serif;
+button a{
   text-decoration: none;
-  font-size: 2em;
+  font-size: 2.5em;
   color:#ddd;
   font-weight: bold;
 }
 
 .main-content {
-  margin: 0 1.5em 1.5em 1.5em;
-  padding-bottom: 1em;
-}
-
-.dummy-news{
-  margin: 0 1.5em 1.5em 1.5em;
-  padding-bottom: 1em;
+  margin: 1.5em;
+  padding: 0 1em 1em 1em;
 }
 
 
@@ -176,51 +167,23 @@ ul.myLinks {
 }
 
 .footer p{
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding-left: 3em;
   padding-right: 3em;
   text-align: center;
-  line-height: 3em;
+  line-height: 4em;
 }
 
 /* #form {
   background-color: #2e3192;
 } */
 
-.close {
-  position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
-  z-index: 1;
-}
-.close:hover {
-  opacity: 1;
-}
-
-.close:before, .close:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #333;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
-}
-
 form {
   background-color: #f7f7f7;
   border-style: solid;
   border-width: 0.5em;
   border-color:#ddd;
-  margin: 10em 0 10em 0;
+  margin: 10em 1.5em;
   padding: 2em;
 }
 
@@ -228,7 +191,7 @@ form {
   border-style: none;
   padding:0;
   margin: 0 0 0.2em 0;
-  font-size: 5em;
+  font-size: 7em;
   color:rgb(35, 35, 37);
   line-height: normal;
   text-align: center;
@@ -237,8 +200,7 @@ form {
 
 #form p{
   font-size:1.5em;
-  margin-bottom: 1.5em;
-  line-height: 1.5em;
+  margin-bottom: 2em;
 }
 
 #form li{
@@ -247,14 +209,14 @@ form {
 
 #input-name input {
   width: 100%;
-  font-size: 1.7em;
+  font-size: 2em;
   padding: 0.2em;
   margin: 0.2em 0 0.2em 0;
 }
 
 #input-email input {
   width: 100%;
-  font-size: 1.7em;
+  font-size: 2em;
   padding: 0.2em;
   margin: 0.2em 0 0.2em 0;
 }
@@ -267,6 +229,7 @@ label{
 }
 
 #input-submit {
+  border-width: 0;
   text-align: center;
   padding-top: 1em;
 }
@@ -274,38 +237,15 @@ label{
 #submit {
   background-color: #2e3192;
   color: #f7f7f7;
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 0.3em;
-  border-width: 0;
-  width: 100%;
-}
-
-/* Tablet Media Query */
-@media (min-width: 480px){
-
-  .banner-image{
-    background-size: 120%;
-  }
-
-  p{
-    font-size: 1.2em;
-  }
-
-  .news-banner{
-    height: 60%;
-  }
-
-  form{
-    margin-left: 3em;
-    margin-right: 3em;
-  }
 }
 
 /* Desktop Media Query */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   /* Resize Banner image to fit screen */
   .banner-image {
-    height: 60%;
+    height: 90vh;
     background-size: cover;
     background-position: center;
   }
@@ -318,7 +258,6 @@ label{
   
   /* Resize History statement */
   p {
-    font-size: 1.4em;
     line-height: 1.5em;
   }
   
@@ -338,45 +277,32 @@ label{
     text-align: center;
     padding: 1em 0 0.5em 0;
   }
-
-  .big-wrapper{
-    padding: 5em 3em 3em 2.5em;
-  }
-
-  .main-content{
-    /* margin:0 2em 2em 0; */
-    width: 40%;
-    float: left;
-  }
   
   /* Adjust slider images */
   .slider {
-      width: 50%;
+      max-width: 100%; 
       margin: 0 auto;
     }
     
   .slide {
     display: block;
     float: left;
-    /* width: 100%; */
+    width: 100%;
     transition: opacity 1s;
-    /* height: 110vh; */
+    height: 110vh;
   }
   
-  .footer {
-    margin-top: 1em;
-  }
-
   /* Adjust banner image for newsletter.html */
   .news-banner {
+    height: 70vh;
     background-size: 100%;
     background-position: center;
   }
   
   /* Adjust newsletter text box */
   h1{
-    font-size: 5.5em;
-    border-width: 0.07em;
+    font-size: 5em;
+    border-width: 0.05em;
     padding: 0.05em 0.2em 0.05em 0.2em;
     margin: 0.2em auto;
     width: fit-content;
@@ -384,46 +310,109 @@ label{
   
   /* Adjust sign up text for newsletter.html */
   .news-banner-text {
-    padding-top: 12.5%;
+    padding-top: 15%;
   }
   
   .news-banner-text p {
-    font-size: 1.7em;
-  }
-
-  .dummy-news{
-    /* margin: 0 5em 0 5em; */
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .newspaper-content{
-    float: none;
-    width: 100%;
+    font-size: 1em;
   }
   
   /* Adjust main-content heeader for newsletter.html */
   .newspaper-content h2 {
-    font-size: 4em;
-    padding: 1.3em 0 0.75em 0;
+    font-size: 3em;
+    padding: 1.4em 0 0.25em 0;
   }
   
-  /* .button {
+  button {
     margin: 2em;
-  } */
-
-  .footer p{
-    font-size: 1em;
   }
-
-  form{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #submit{
-    width: fit-content;
+  
+  /* Media Query for Tablets */
+  @media (min-width: 900px) {
+    /* Adjust Banner image for screen */
+    .banner-image {
+      height: 70vh;
+      background-size: contain;
+      background-position: center;
+    }
+    
+    /* Adjust header size */
+    h2 {
+      font-size: 2.5em;
+      padding: 0.2em 0 0.2em 0;
+    }
+    
+    /* Resize History statement */
+    p {
+      line-height: 1.3em;
+    }
+    
+    /* Adjust footer and footer content */
+    .footer {
+      padding-bottom: 1em;
+    }
+    
+    .footer p {
+      height: 18px;
+      font-size: 0.6em;
+      line-height: 1.8em;
+    }
+    
+    h3 {
+      font-size: 1.5em;
+      text-align: center;
+      padding: 0.8em 0 0.4em 0;
+    }
+    
+    /* Adjust slider images */
+    .slider {
+      max-width: 90%; 
+      margin: 0 auto;
+    }
+    
+    .slide {
+      display: block;
+      float: left;
+      width: 100%;
+      transition: opacity 0.8s;
+      height: 100vh;
+    }
+    
+    /* Adjust banner image for newsletter.html */
+    .news-banner {
+      height: 60vh;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    /* Adjust newsletter text box */
+    h1 {
+      font-size: 4em;
+      border-width: 0.1em;
+      padding: 0.1em 0.3em 0.1em 0.3em;
+      margin: 0.2em auto;
+      width: fit-content;
+    }
+    
+    /* Adjust sign up text for newsletter.html */
+    .news-banner-text {
+      padding-top: 12%;
+    }
+    
+    .news-banner-text p {
+      font-size: 0.8em;
+      line-height: 1.2em;
+      margin: 1em 2em 0 2em;
+    }
+    
+    /* Adjust main-content header for newsletter.html */
+    .newspaper-content h2 {
+      font-size: 2.5em;
+      padding: 1em 0 0.2em 0;
+    }
+    
+    button {
+      margin: 1.5em;
+    }
   }
 }
