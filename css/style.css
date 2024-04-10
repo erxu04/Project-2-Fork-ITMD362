@@ -326,4 +326,93 @@ label{
   button {
     margin: 2em;
   }
+  
+  /* Media Query for Tablets */
+  @media (min-width: 900px) {
+    /* Adjust Banner image for screen */
+    .banner-image {
+      height: 70vh;
+      background-size: contain;
+      background-position: center;
+    }
+    
+    /* Adjust header size */
+    h2 {
+      font-size: 2.5em;
+      padding: 0.2em 0 0.2em 0;
+    }
+    
+    /* Resize History statement */
+    p {
+      line-height: 1.3em;
+    }
+    
+    /* Adjust footer and footer content */
+    .footer {
+      padding-bottom: 1em;
+    }
+    
+    .footer p {
+      height: 18px;
+      font-size: 0.6em;
+      line-height: 1.8em;
+    }
+    
+    h3 {
+      font-size: 1.5em;
+      text-align: center;
+      padding: 0.8em 0 0.4em 0;
+    }
+    
+    /* Adjust slider images */
+    .slider {
+      max-width: 90%; 
+      margin: 0 auto;
+    }
+    
+    .slide {
+      display: block;
+      float: left;
+      width: 100%;
+      transition: opacity 0.8s;
+      height: 100vh;
+    }
+    
+    /* Adjust banner image for newsletter.html */
+    .news-banner {
+      height: 60vh;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    /* Adjust newsletter text box */
+    h1 {
+      font-size: 4em;
+      border-width: 0.1em;
+      padding: 0.1em 0.3em 0.1em 0.3em;
+      margin: 0.2em auto;
+      width: fit-content;
+    }
+    
+    /* Adjust sign up text for newsletter.html */
+    .news-banner-text {
+      padding-top: 12%;
+    }
+    
+    .news-banner-text p {
+      font-size: 0.8em;
+      line-height: 1.2em;
+      margin: 1em 2em 0 2em;
+    }
+    
+    /* Adjust main-content header for newsletter.html */
+    .newspaper-content h2 {
+      font-size: 2.5em;
+      padding: 1em 0 0.2em 0;
+    }
+    
+    button {
+      margin: 1.5em;
+    }
+  }
 }
