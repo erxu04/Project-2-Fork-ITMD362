@@ -94,7 +94,7 @@ ul.myLinks {
 }
 
 .news-banner  {
-  height: 45%;
+  height: 60%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("../images/homeBG.jpg");
   background-size: 200%;
 }
@@ -110,18 +110,22 @@ ul.myLinks {
   color: white;
   font-size: 1.5em;
   line-height: 1.5em;
-  margin: 1em 2em 0 2em;
+  margin: 1em 2em 1em 2em;
 }
 
-button{
-  margin: 3em 0;
+.button{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
   padding: 1em;
   border-width: 0;
   background-color: #2e3192;
   border-radius: 10px;
+  width: fit-content;
 }
 
-button a{
+.button a{
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   font-size: 2em;
   color:#ddd;
@@ -405,9 +409,9 @@ label{
     padding: 1.3em 0 0.75em 0;
   }
   
-  button {
+  /* .button {
     margin: 2em;
-  }
+  } */
 
   .footer p{
     font-size: 1em;
