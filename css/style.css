@@ -276,6 +276,26 @@ label{
   width: 100%;
 }
 
+/* Tablet Media Query */
+@media (min-width: 480px){
+
+  .banner-image{
+    background-size: 120%;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  .news-banner{
+    height: 60%;
+  }
+
+  form{
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
 
 /* Desktop Media Query */
 @media (min-width: 1024px) {
@@ -345,7 +365,6 @@ label{
 
   /* Adjust banner image for newsletter.html */
   .news-banner {
-    height: 60%;
     background-size: 100%;
     background-position: center;
   }
