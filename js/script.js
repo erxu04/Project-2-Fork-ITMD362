@@ -25,7 +25,7 @@ function init(){
 
   x.addEventListener("click", myFunction);
 
-  
+  showSlides();
 }
 
 window.addEventListener('load', init)
@@ -44,6 +44,3 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 15000); // Change image every 5 seconds
 }
-
-showSlides();
-
