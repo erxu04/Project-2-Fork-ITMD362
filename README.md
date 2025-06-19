@@ -1,3 +1,3 @@
-# Project-2
-This is our shared repository for project 2.
-Test edit on my local repo
+# ITMD362 Project 2
+### Redesign Berkshire Hathaway Website
+Personal fork of shared group repository for Project 2.
